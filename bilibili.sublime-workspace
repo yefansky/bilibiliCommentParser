@@ -1,0 +1,1046 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"owner",
+				"ownerUserID"
+			],
+			[
+				"SN",
+				"SNGener"
+			],
+			[
+				"sslist",
+				"sslist_json"
+			],
+			[
+				"recip",
+				"recipeInfos"
+			],
+			[
+				"fu",
+				"function\tfunction"
+			],
+			[
+				"nSlo",
+				"nSlotID"
+			],
+			[
+				"nsl",
+				"nSlotID"
+			],
+			[
+				"sample",
+				"sample_count"
+			],
+			[
+				"var",
+				"Variable\t(class)"
+			],
+			[
+				"l",
+				"learning_rate\t(statement)"
+			],
+			[
+				"tan",
+				"tanh\t(function)"
+			],
+			[
+				"float",
+				"float32\t(instance)"
+			],
+			[
+				"TFRecord",
+				"TFRecordWriter\t(class)"
+			],
+			[
+				"pyth",
+				"python_io\t(module)"
+			],
+			[
+				"ski",
+				"skip_header\t(param)"
+			],
+			[
+				"an",
+				"m_answer"
+			],
+			[
+				"myP",
+				"myplayer"
+			],
+			[
+				"s",
+				"skilldirection"
+			],
+			[
+				"currentSkill",
+				"currentSkillID"
+			],
+			[
+				"glo",
+				"global\t(keyword)"
+			],
+			[
+				"inp",
+				"inputPath\t(statement)"
+			],
+			[
+				"m_n",
+				"m_nSkillID"
+			],
+			[
+				"命中",
+				"命中率"
+			],
+			[
+				"outp",
+				"outputFile"
+			],
+			[
+				"Add",
+				"AddAttribute"
+			],
+			[
+				"nVa",
+				"nValue1"
+			],
+			[
+				"AddAttr",
+				"AddAttributeList"
+			],
+			[
+				"EFFECT_",
+				"EFFECT_TO_SELF_BEFORE_CAST"
+			],
+			[
+				"ATT",
+				"ATTRIBUTE_EFFECT_MODE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "spider.py",
+			"settings":
+			{
+				"buffer_size": 1799,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 219,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import spider"
+			}
+		},
+		{
+			"file": "wordfreq.py",
+			"settings":
+			{
+				"buffer_size": 672,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import jieba"
+			}
+		},
+		{
+			"file": "rank.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "draw.py",
+			"settings":
+			{
+				"buffer_size": 676,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import pandas as pd"
+			}
+		},
+		{
+			"file": "output.txt",
+			"settings":
+			{
+				"buffer_size": 305,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "comment.txt",
+			"settings":
+			{
+				"buffer_size": 2884,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"CanCast",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"python",
+				"Python Refactor: Rename"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"evernote",
+				"Evernote Settings: Reconfigure Authorization"
+			],
+			[
+				"evetnote",
+				"Evernote: Insert link to a note (browse)"
+			],
+			[
+				"sy lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pythn",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"utf8",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"gbk",
+				"Toggle Block Comment"
+			],
+			[
+				"ins",
+				"Indentation: Convert to Spaces"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 269.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/L/lab/bilibili"
+	],
+	"file_history":
+	[
+		"/L/lab/bilibili/comment.txt",
+		"/L/lab/bilibili/main.py",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/少林/子技能_少林_宝瓶印段3.lua",
+		"/H/sword3-products/trunk/client/ui/Config/Default/LoginRoleList.lua",
+		"/H/Sword3_Code_Classic/Publish.bat",
+		"/E/sword3-products/client/scripts/center_remote.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/少林/少林_技能事件_带CD的增加反击点.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/少林/秘笈/少林_锻骨诀_增加内功免疫.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/少林/少林_韦陀献杵段二.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/万花/子技能_清心静气_离经易道.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/万花/万花_技能事件_水月无间.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/万花/技能事件_水月无间_施放后驱散buff.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/skill/天策/天策_子技能_穿_仇恨.lua",
+		"/E/sword3-products/client/scripts/player/PlayerScript.lua",
+		"/H/sword3-products_Classic/trunk/client/scripts/player/PlayerScript.lua",
+		"/H/sword3-products_Classic/trunk/client/ui/Script/Login.lua",
+		"/H/sword3-products_Classic/trunk/client/ui/Config/Default/LoginSingleRole.lua",
+		"/H/sword3-products/trunk/server/center_scripts/remote_for_gm.lua",
+		"/L/JX3Classical-products/client/scripts/skill/系统/系统_表情动作.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Ride/UIRide.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/AutoTestRobot/AutoTestManager.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/AutoTestRobot/Robot/AutoGroup.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/AutoTestRobot/Robot/StatisticsTestSkillDamage.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/ArenaData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/BattlegroundData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/GroupData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/MsgBoxData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/RedPacketData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/RoomData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/RoomOBData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/StageData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/TongData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/TreasureCaveData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/UserData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/LogicData/WantedData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/protocol/pcligs/tcligs_AccountServiceC2S.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/protocol/pcligs/tcligs_AccountServiceS2C.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/protocol/pcligs/tcligs_TongServiceS2C.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/protocol/pcligs/tcligs_ttypes.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/protocol/pcligs/tcligs_WorldDungeonServiceS2C.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Global.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/BaseClass/UIBaseUserPortrait.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/AIArena/UIAIArenaEmbattleView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaBattleData.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaBattleUserCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaFinishCard.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaFinishDataView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaFinishResultView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaLoadingCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaLoadingView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaMatchSuccessView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaModeSelectView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaRankCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaRankView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaSoloHistoryView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaSoloHistroyCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIArenaSoloPreciousMomentView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Arena/UIPVPBattleHistoryView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleArenaSoloView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleBottomExp.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleDeathChangeCamera.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleDeathChangeCameraPlayerIcon.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleHead.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleKill.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattlePVPMultipleInfoView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleSkillSelectPlayerCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBattleSoloView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIBloodBar.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIDungeonRollView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battle/UIWorldDungeonReviveSelectPlayerView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundBattleDataView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundBattleMiniMap.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundBattlePlayerHead.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundBattleView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundFinishView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundLoadingView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundMatchSuccessView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Battleground/UIBattlegroundSignUpFailView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/BPArena/UIEmbattleBPBanIcon.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/BPArena/UIEmbattleBPPickIcon.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/BPArena/UIEmbattleBPRegularView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/BPArena/UIEmbattleBPView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/BPArena/UIEmbattleSoloBPView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Captain/UIChangeCaptainView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Challenge/UIChallengeEmbattlePick.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Challenge/UIChallengeFlagHead.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Challenge/UIChallengeMainView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Chat/UIChatSumView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Chat/UIChatTeamVoiceSwitcher.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Chat/UIChatView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Chat/UIQuickReplyNotice.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Craft/UICraftCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Craft/UICraftGetMissionView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Craft/UICraftHelpMineCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/DPS/UIBattleDataStatisticsPage.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/DPS/UIBattleDataStatisticsPerPlayerCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/DropAuction/UIDropAuctionNewView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/DropOut/UIRollResultCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIDungeonAlertView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIDungeonArmorHintTeamLeaderView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIDungeonMatchSuccessView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIDungeonPlayerLuckyInfoCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIDungeonProgressView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIDungeonTeamLeadCheckView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Dungeon/UIStageProgressView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIArenaEmbattleView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIBattlegroundEmbattleView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIEmbattle3DMate.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIEmbattle3DView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIEmbattleGroupMateCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIEmbattleView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UIMazeEmbattleView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UITongTreasureEmbattleInfo.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Embattle/UITongTreasureEmbattleMateInfo.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/EndlessTrials/UIBattleEndlessTrialsView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/EndlessTrials/UIEndlessTrialsMiniMap.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/GameCraft/UICraftCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/GameSetting/UIGameSettingUserMainInfo.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/GameSetting/UIGameSetUserPortrait.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroup.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupApplyMateCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupBattleMate.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupCreateView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupInviteCell.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupInviteDialog.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupInviteView.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupMainCityMate.lua",
+		"/L/JX3M/JX3Pocket/Assets/StreamingAssets/Lua/UI/Module/Group/UIGroupMatchSuccessView.lua"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 129.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"       ",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "spider.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1799,
+								1799
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import spider",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wordfreq.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import jieba",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "rank.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "draw.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import pandas as pd",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "output.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "comment.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 457.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "bilibili.sublime-project",
+	"replace":
+	{
+		"height": 75.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cardsell.lua",
+				"Config\\Default\\CardSell.lua"
+			],
+			[
+				"9318",
+				"L:\\JX3M\\JX3Pocket\\Assets\\StreamingAssets\\JX3MWorld\\scripts\\skill\\ShenBi\\9318.lua"
+			],
+			[
+				"uibattleskill",
+				"UI\\Module\\Battle\\UIBattleSkill.lua"
+			],
+			[
+				"uihelp",
+				"Helper\\UIHelper.lua"
+			],
+			[
+				"uibattleskilldire",
+				"UI\\Module\\Battle\\UIBattleSkillDirection.lua"
+			],
+			[
+				"battleskill",
+				"UI\\Module\\Battle\\UIBattleSkill.lua"
+			],
+			[
+				"skilldata",
+				"LogicData\\SkillData.lua"
+			],
+			[
+				"uibattleskilloneke",
+				"UI\\Module\\Battle\\UIBattleSkillOnekeyMacroPage.lua"
+			],
+			[
+				"uihel",
+				"Helper\\UIHelper.lua"
+			],
+			[
+				"uibloodbar",
+				"UI\\Module\\Battle\\UIBloodBar.lua"
+			],
+			[
+				"uihelper",
+				"Helper\\UIHelper.lua"
+			],
+			[
+				"UIItemTab",
+				"Tab\\UIItemTab.lua"
+			],
+			[
+				"timer",
+				"Common\\Timer.lua"
+			],
+			[
+				"uistagescene",
+				"UI\\base\\UIStageScene.lua"
+			],
+			[
+				"uiheadinfoview",
+				"UI\\Module\\Headinfo\\UIHeadInfoView.lua"
+			],
+			[
+				"uistagescne",
+				"UI\\base\\UIStageScene.lua"
+			],
+			[
+				"uiheadin",
+				"UI\\Module\\Headinfo\\UIHeadInfo.lua"
+			],
+			[
+				"uiheadinfo",
+				"UI\\Module\\Headinfo\\UIHeadInfo.lua"
+			],
+			[
+				"UIHelper",
+				"Helper\\UIHelper.lua"
+			],
+			[
+				"gm",
+				"GM\\GMMenu.lua"
+			],
+			[
+				"uistatescene",
+				"UI\\base\\UIBattleScene.lua"
+			],
+			[
+				"1160602",
+				"skill\\GaoJiangTing\\1160602.lua"
+			],
+			[
+				"uibattleskilldirection.lua",
+				"UI\\Module\\Battle\\UIBattleSkillDirection.lua"
+			],
+			[
+				"skilldata.",
+				"LogicData\\SkillData.lua"
+			],
+			[
+				"7131",
+				"YeWei\\7131.lua"
+			],
+			[
+				"20320401",
+				"Recipe\\20320401.lua"
+			],
+			[
+				"UserData",
+				"LogicData\\UserData.lua"
+			],
+			[
+				"uiskillvi",
+				"UI\\Module\\Battle\\UIBattleSkillView.lua"
+			],
+			[
+				"lib",
+				"Common\\Lib.lua"
+			],
+			[
+				"customtablist",
+				"Tab\\CustomTabList.lua"
+			],
+			[
+				"uiskilltab",
+				"Tab\\UISkillTab.lua"
+			],
+			[
+				"tabhelper",
+				"Helper\\TabHelper.lua"
+			],
+			[
+				"tabh",
+				"Helper\\TabHelper.lua"
+			],
+			[
+				"notifyui",
+				"LogicData\\NotifyUITrigger.lua"
+			],
+			[
+				"battleskillv",
+				"UI\\Module\\Battle\\UIBattleSkillView.lua"
+			],
+			[
+				"UIBattleSkillDirection",
+				"UI\\Module\\Battle\\UIBattleSkillDirection.lua"
+			],
+			[
+				"skilldirection",
+				"UI\\Module\\Battle\\UIBattleSkillDirection.lua"
+			],
+			[
+				"direct",
+				"UI\\Module\\Battle\\UIBattleDirection.lua"
+			],
+			[
+				"head",
+				"UI\\Module\\Headinfo\\UIHeadInfo.lua"
+			],
+			[
+				"blood",
+				"UI\\Module\\Battle\\UIBloodBar.lua"
+			],
+			[
+				"SkillDAta",
+				"LogicData\\SkillData.lua"
+			],
+			[
+				"uidef",
+				"Def\\UIDef.lua"
+			],
+			[
+				"SkillData",
+				"SkillData.lua.patch"
+			],
+			[
+				"UIViewOpenSequenceManager",
+				"UI\\Other\\UIViewOpenSequenceManager.lua"
+			],
+			[
+				"UINavigateHelper",
+				"Helper\\UINavigateHelper.lua"
+			],
+			[
+				"TabHelper",
+				"Helper\\TabHelper.lua"
+			],
+			[
+				"UIPlayerPrefs.lua",
+				"LogicData\\UIPlayerPrefs.lua"
+			],
+			[
+				"playerdata",
+				"LogicData\\PlayerData.lua"
+			],
+			[
+				"UIPlayerSkillCell.lua",
+				"UI\\Module\\Player\\PlayerSkill\\UIPlayerSkillCell.lua"
+			],
+			[
+				"uiskilltalb",
+				"Tab\\UISkillTab.lua"
+			],
+			[
+				"uiplayerskillcell",
+				"UI\\Module\\Player\\PlayerSkill\\UIPlayerSkillCell.lua"
+			],
+			[
+				"uibigskill",
+				"Module\\Battle\\UIBigSkillRepresent.lua"
+			],
+			[
+				"uibattleskilldi",
+				"Module\\Battle\\UIBattleSkillDirection.lua"
+			],
+			[
+				"skillactionv",
+				"Module\\Battle\\UISkillActionView.lua"
+			],
+			[
+				"uibattleskilldrection",
+				"Module\\Battle\\UIBattleSkillDirection.lua"
+			],
+			[
+				"uicommonbattle",
+				"Module\\Battle\\UICommonBattleMultipleView.lua"
+			],
+			[
+				"uiskillactionv",
+				"Module\\Battle\\UISkillActionView.lua"
+			],
+			[
+				"uibattleskillview",
+				"Module\\Battle\\UIBattleSkillView.lua"
+			],
+			[
+				"uimaincityactionv",
+				"Module\\MainCity\\UIMainCityActionView.lua"
+			],
+			[
+				"uiviewopensequencemanager",
+				"Other\\UIViewOpenSequenceManager.lua"
+			],
+			[
+				"uibattleskillcell",
+				"Module\\Battle\\UIBattleSkillSelectPlayerCell.lua"
+			],
+			[
+				"uiskillat",
+				"Module\\Battle\\UISkillAction.lua"
+			],
+			[
+				"uiskillac",
+				"Module\\Battle\\UISkillActionView.lua"
+			],
+			[
+				"uiskillactionvi",
+				"Module\\Battle\\UISkillActionView.lua"
+			],
+			[
+				"uibattleskillvie",
+				"Module\\Battle\\UIBattleSkillView.lua"
+			],
+			[
+				"battlescene",
+				"base\\UIBattleScene.lua"
+			],
+			[
+				"uiscene",
+				"base\\UIScene.lua"
+			],
+			[
+				"10204",
+				"TianCeDiZi\\10204.lua"
+			],
+			[
+				"100203",
+				"scripts\\skill\\npc\\10002\\1000203.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
